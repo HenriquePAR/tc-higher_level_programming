@@ -5,4 +5,8 @@ def islower(c):
            return "True"
     else:
         return "false"
-print(islower('c'))
+print(islower('"'))
+print(islower('a'))
+print(islower('H'))
+print(islower('4'))
+print(islower('!'))
