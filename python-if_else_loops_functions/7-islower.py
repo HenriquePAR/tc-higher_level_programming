@@ -2,9 +2,9 @@
 def islower(c):
     for i in range(97,123):
         if ord(c) == i:
-           return "True"
+           return "{} is lower".format(c)
     else:
-        return "false"
+        return "{} is upper".format(c)
 print(islower('"'))
 print(islower('a'))
 print(islower('H'))
